@@ -1,6 +1,7 @@
 # jobunter
 
 To Run jobunter follow these steps:
+
 	1. First of all you should have a local server on your machine ex: XAMPP, WAMP...
 	2. go to your phpMyAdmin and create new Database and choose name ex: jobunter.
 	3. Download Composer to install project dependecies
