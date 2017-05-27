@@ -1,0 +1,105 @@
+.pr-0 {
+    padding-right: 0!important;
+}
+.pl-0 {
+    padding-left: 0!important;
+}
+.country-select.inside {
+    width: 100%;
+}
+#ui-datepicker-div {
+    z-index: 999999!important;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ui-datepicker-calendar {
+    width: 100%;
+}
+.bootstrap-tagsinput {
+    display: block;
+}
+.slim.img-responsive {
+    height: 170px!important;
+}
+.company-cover {
+    position: relative;
+}
+.company-cover .edit {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+li.list-group-item.paper-shadow:hover .job-hover {
+    display: inline-block;
+}
+.job-hover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    display: none;
+}
+a.remove-job {
+    background: rgba(242, 14, 15, 0.67);
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    height: 30px;
+    display: inline-block;
+    color: #fff;
+}
+a.edit-job {
+    background: #4ab157;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    height: 30px;
+    display: inline-block;
+    color: #fff;
+}
+a.open-job {
+    background: #5783ff;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    height: 30px;
+    display: inline-block;
+    color: #fff;   
+}
+.panel {
+    box-shadow: 0 2px 2px rgba(0,0,0,.15);
+}
+.social-media-heading {
+    border-top: 4px solid #0c80df;
+}
+a:hover i.fa-facebook  { 
+    color: #3B5998; 
+}
+a:hover i.fa-linkedin { 
+    color: #0084bf; 
+}
+a:hover i.fa-google-plus { 
+    color: #d34836; 
+}
+a:hover i.fa-twitter { 
+    color: #4099FF; 
+}
+a:hover i.fa-plus { 
+    color: #bd362f; 
+}
+h4 .fa {
+    padding: 7px;
+}
+.edit:hover {
+background-color: #ccc; 
+/*border-radius: 50%; */
+}
+#edit li {
+    padding: 0 15px;
+}

@@ -1,0 +1,131 @@
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Overlock');
+    body {
+        font-family: Overlock;
+    }
+    .bg-blue-400 {
+        background-image: url("https://farm8.staticflickr.com/7288/9167365008_d0e3ab0127_k.jpg"); 
+        /*min-height: 200px;*/
+        /*float: left;*/
+        /*position: absolute;*/
+    }
+    .page-section {
+        padding: 20px;
+    }
+    #profile {
+        background-color: #fff;
+        margin-top:50px;
+        padding: 0 30px 30px 30px;
+        /*margin: -300px auto;*/
+        z-index: 10;
+        width: 70%;
+        height: auto;
+        border: 1px solid transparent;
+        border-color: #e2e9e6;
+        /*border-radius: 50%;*/
+        box-shadow: 0 0 0 .5px rgba(0, 0, 0, .1), 0 2px 2px rgba(0,0,0,.15);
+    }
+    #profile img{
+        background-color: #fff;
+        z-index: 10;
+        border: 2px solid transparent;
+        border-color: #e2e9e6;
+        box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    }
+    #profile p{
+        padding-top: 15px;
+    }
+    #photo {
+        margin-top: -60px;
+    }
+    h1 {
+        color: rgba(0,0,0,.7);
+        font-weight: 200;
+    }
+    #social-media {
+        border-bottom: 4px solid #0c80df;
+    }
+    a:hover i.fa-facebook  { 
+        color: #3B5998; 
+    }
+    a:hover i.fa-linkedin { 
+        color: #0084bf; 
+    }
+    a:hover i.fa-google-plus { 
+        color: #d34836; 
+    }
+    a:hover i.fa-twitter { 
+        color: #4099FF; 
+    }
+    a:hover i.fa-plus { 
+        color: #bd362f; 
+    }
+    h4 .fa {
+        padding: 7px;
+    }
+    .edit:hover {
+    background-color: #ccc; 
+    /*border-radius: 50%; */
+    }
+    #edit li {
+        padding: 0 15px;
+    }
+    #education {
+        border-bottom: 5px solid #81c784;
+        border-radius: 1.7px;
+    }
+    #section .plus {
+        display: none;
+        font-style: normal;
+    }
+    #section:hover .plus {
+        display: block;
+    }
+    #certificates {
+        border-bottom: 5px solid #ba68c8;
+        border-radius: 1.7px;
+    }
+    #section img {
+        border: 2px solid transparent;
+        border-color: #e2e9e6;
+        box-shadow: 0 1px 1px rgba(0,0,0,.2);
+        width: 100%;
+    }
+    .certificate-img {
+        /*border:  1px solid red;*/
+        /*border-radius: 1.5px;*/
+        height: 100px;
+        width: 150px;
+        margin-top: 9px;
+        padding-right: 10px;
+    }
+    .section-item {
+        padding: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+    .section-item:last-child {
+        border-bottom: 1px solid transparent;
+    }
+    .panel {
+        box-shadow: 0 2px 2px rgba(0,0,0,.15);
+    }
+    .panel #edit {
+        display: none;
+    }
+    .section-item:hover #edit, #social-media:hover #edit{
+        display: block;
+    }
+    #skills {
+        border-bottom: 5px solid #e57373;
+        border-radius: 1.7px;
+    }
+    #experience {
+        border-bottom: 5px solid #FF8A65;
+        border-radius: 1.7px;
+    }
+    .btn-default {
+        background-color: inherit;
+    }
+    .btn-default:hover {
+        background-color: rgba(200,200,200,.1);
+    }
